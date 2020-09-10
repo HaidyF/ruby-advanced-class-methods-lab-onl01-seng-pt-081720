@@ -38,7 +38,10 @@ class Song
   end
 
   def self.alphabetical(name)
-    
+
   end
 
+  def self.clear
+    @@all.clear
+  end
 end
