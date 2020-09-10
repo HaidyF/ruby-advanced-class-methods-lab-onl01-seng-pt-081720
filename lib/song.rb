@@ -42,7 +42,7 @@ class Song
   end
 
   def new_from_filename(filename)
-    split_filename = filename.chomp(".mp3"). split("-"")
+    split_filename = filename.chomp(".mp3"). split("-")
   end
 
   def self.destroy_all
