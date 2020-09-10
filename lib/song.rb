@@ -45,7 +45,7 @@ class Song
     split_filename = filename.chop.chop.chop.chop.split(" - ")
     song = song.new
     song.name = split_filename[1]
-    song.artist_name=split_filename[0]
+    song.artist_name = split_filename[0]
     song.save
     song
   end
