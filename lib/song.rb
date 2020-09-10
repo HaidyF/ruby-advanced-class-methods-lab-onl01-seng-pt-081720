@@ -21,4 +21,11 @@ class Song
     song.name = name
     song
   end
+
+  def self.create_by_name(name)
+    song = self.news
+    song.name = name
+    song.save
+    song
+
 end
